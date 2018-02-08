@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eberhard-grossgasteiger-521851.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4MM-F1-0YP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's the Weather?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qu8-MD-UxT">
+                                <rect key="frame" x="81.333333333333329" y="27.999999999999996" width="251.66666666666669" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.97896086128034032" green="0.97656070883244794" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your city!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwC-4j-Bw8">
+                                <rect key="frame" x="149.33333333333334" y="69" width="115.66666666666666" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E.g. Waterloo, Ottawa" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iyd-Ax-Mv6">
+                                <rect key="frame" x="20" y="107" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="tWC-Ox-kbT"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sJ-dP-TR3">
+                                <rect key="frame" x="192" y="153" width="30" height="30"/>
+                                <state key="normal" title="Find"/>
+                                <connections>
+                                    <action selector="find:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vR4-Zi-4Z8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8i-zT-NZv">
+                                <rect key="frame" x="20" y="191" width="374" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="K8i-zT-NZv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2yD-X7-Iqe"/>
+                            <constraint firstItem="4MM-F1-0YP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5i7-mi-g3w"/>
+                            <constraint firstItem="4MM-F1-0YP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HbY-f6-G4v"/>
+                            <constraint firstItem="4MM-F1-0YP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IGb-Rl-hr5"/>
+                            <constraint firstItem="nwC-4j-Bw8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IKN-G1-arT"/>
+                            <constraint firstItem="nwC-4j-Bw8" firstAttribute="top" secondItem="Qu8-MD-UxT" secondAttribute="bottom" constant="7.3333333333333428" id="J67-hd-O0d"/>
+                            <constraint firstItem="3sJ-dP-TR3" firstAttribute="top" secondItem="Iyd-Ax-Mv6" secondAttribute="bottom" constant="16" id="Pwf-Sa-s1j"/>
+                            <constraint firstItem="4MM-F1-0YP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qos-af-3SD"/>
+                            <constraint firstItem="Iyd-Ax-Mv6" firstAttribute="top" secondItem="nwC-4j-Bw8" secondAttribute="bottom" constant="17" id="StT-k3-LZ7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K8i-zT-NZv" secondAttribute="trailing" constant="20" id="X44-bk-D1S"/>
+                            <constraint firstItem="3sJ-dP-TR3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bmb-bf-ES7"/>
+                            <constraint firstItem="Iyd-Ax-Mv6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="btF-zA-lqJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iyd-Ax-Mv6" secondAttribute="trailing" constant="20" id="c9e-UY-x3O"/>
+                            <constraint firstItem="K8i-zT-NZv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hJn-am-doT"/>
+                            <constraint firstItem="K8i-zT-NZv" firstAttribute="top" secondItem="3sJ-dP-TR3" secondAttribute="bottom" constant="8" id="s3P-my-bog"/>
+                            <constraint firstItem="Qu8-MD-UxT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w2s-j9-2bS"/>
+                            <constraint firstItem="Qu8-MD-UxT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="yHR-ZZ-Xux"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="K8i-zT-NZv" id="lC4-gw-TkX"/>
+                        <outlet property="textField" destination="Iyd-Ax-Mv6" id="1sf-Gl-arS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="eberhard-grossgasteiger-521851.jpg" width="750" height="1128"/>
+    </resources>
+</document>

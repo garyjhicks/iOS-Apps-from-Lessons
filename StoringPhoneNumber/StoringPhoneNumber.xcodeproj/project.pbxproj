@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC517EE22026BB3400B6F389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC517EE12026BB3400B6F389 /* AppDelegate.swift */; };
+		EC517EE42026BB3400B6F389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC517EE32026BB3400B6F389 /* ViewController.swift */; };
+		EC517EE72026BB3400B6F389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC517EE52026BB3400B6F389 /* Main.storyboard */; };
+		EC517EE92026BB3400B6F389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC517EE82026BB3400B6F389 /* Assets.xcassets */; };
+		EC517EEC2026BB3400B6F389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC517EEA2026BB3400B6F389 /* LaunchScreen.storyboard */; };
+		EC517EF72026BB3400B6F389 /* StoringPhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC517EF62026BB3400B6F389 /* StoringPhoneNumberTests.swift */; };
+		EC517F022026BB3400B6F389 /* StoringPhoneNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC517F012026BB3400B6F389 /* StoringPhoneNumberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC517EF32026BB3400B6F389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC517ED62026BB3400B6F389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC517EDD2026BB3400B6F389;
+			remoteInfo = StoringPhoneNumber;
+		};
+		EC517EFE2026BB3400B6F389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC517ED62026BB3400B6F389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC517EDD2026BB3400B6F389;
+			remoteInfo = StoringPhoneNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC517EDE2026BB3400B6F389 /* StoringPhoneNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoringPhoneNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC517EE12026BB3400B6F389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC517EE32026BB3400B6F389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC517EE62026BB3400B6F389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC517EE82026BB3400B6F389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC517EEB2026BB3400B6F389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC517EED2026BB3400B6F389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC517EF22026BB3400B6F389 /* StoringPhoneNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoringPhoneNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC517EF62026BB3400B6F389 /* StoringPhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringPhoneNumberTests.swift; sourceTree = "<group>"; };
+		EC517EF82026BB3400B6F389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC517EFD2026BB3400B6F389 /* StoringPhoneNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoringPhoneNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC517F012026BB3400B6F389 /* StoringPhoneNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringPhoneNumberUITests.swift; sourceTree = "<group>"; };
+		EC517F032026BB3400B6F389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC517EDB2026BB3400B6F389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC517EEF2026BB3400B6F389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC517EFA2026BB3400B6F389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC517ED52026BB3400B6F389 = {
+			isa = PBXGroup;
+			children = (
+				EC517EE02026BB3400B6F389 /* StoringPhoneNumber */,
+				EC517EF52026BB3400B6F389 /* StoringPhoneNumberTests */,
+				EC517F002026BB3400B6F389 /* StoringPhoneNumberUITests */,
+				EC517EDF2026BB3400B6F389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC517EDF2026BB3400B6F389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC517EDE2026BB3400B6F389 /* StoringPhoneNumber.app */,
+				EC517EF22026BB3400B6F389 /* StoringPhoneNumberTests.xctest */,
+				EC517EFD2026BB3400B6F389 /* StoringPhoneNumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC517EE02026BB3400B6F389 /* StoringPhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				EC517EE12026BB3400B6F389 /* AppDelegate.swift */,
+				EC517EE32026BB3400B6F389 /* ViewController.swift */,
+				EC517EE52026BB3400B6F389 /* Main.storyboard */,
+				EC517EE82026BB3400B6F389 /* Assets.xcassets */,
+				EC517EEA2026BB3400B6F389 /* LaunchScreen.storyboard */,
+				EC517EED2026BB3400B6F389 /* Info.plist */,
+			);
+			path = StoringPhoneNumber;
+			sourceTree = "<group>";
+		};
+		EC517EF52026BB3400B6F389 /* StoringPhoneNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC517EF62026BB3400B6F389 /* StoringPhoneNumberTests.swift */,
+				EC517EF82026BB3400B6F389 /* Info.plist */,
+			);
+			path = StoringPhoneNumberTests;
+			sourceTree = "<group>";
+		};
+		EC517F002026BB3400B6F389 /* StoringPhoneNumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC517F012026BB3400B6F389 /* StoringPhoneNumberUITests.swift */,
+				EC517F032026BB3400B6F389 /* Info.plist */,
+			);
+			path = StoringPhoneNumberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC517EDD2026BB3400B6F389 /* StoringPhoneNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC517F062026BB3400B6F389 /* Build configuration list for PBXNativeTarget "StoringPhoneNumber" */;
+			buildPhases = (
+				EC517EDA2026BB3400B6F389 /* Sources */,
+				EC517EDB2026BB3400B6F389 /* Frameworks */,
+				EC517EDC2026BB3400B6F389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoringPhoneNumber;
+			productName = StoringPhoneNumber;
+			productReference = EC517EDE2026BB3400B6F389 /* StoringPhoneNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC517EF12026BB3400B6F389 /* StoringPhoneNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC517F092026BB3400B6F389 /* Build configuration list for PBXNativeTarget "StoringPhoneNumberTests" */;
+			buildPhases = (
+				EC517EEE2026BB3400B6F389 /* Sources */,
+				EC517EEF2026BB3400B6F389 /* Frameworks */,
+				EC517EF02026BB3400B6F389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC517EF42026BB3400B6F389 /* PBXTargetDependency */,
+			);
+			name = StoringPhoneNumberTests;
+			productName = StoringPhoneNumberTests;
+			productReference = EC517EF22026BB3400B6F389 /* StoringPhoneNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC517EFC2026BB3400B6F389 /* StoringPhoneNumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC517F0C2026BB3400B6F389 /* Build configuration list for PBXNativeTarget "StoringPhoneNumberUITests" */;
+			buildPhases = (
+				EC517EF92026BB3400B6F389 /* Sources */,
+				EC517EFA2026BB3400B6F389 /* Frameworks */,
+				EC517EFB2026BB3400B6F389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC517EFF2026BB3400B6F389 /* PBXTargetDependency */,
+			);
+			name = StoringPhoneNumberUITests;
+			productName = StoringPhoneNumberUITests;
+			productReference = EC517EFD2026BB3400B6F389 /* StoringPhoneNumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC517ED62026BB3400B6F389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gary Hicks";
+				TargetAttributes = {
+					EC517EDD2026BB3400B6F389 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC517EF12026BB3400B6F389 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC517EDD2026BB3400B6F389;
+					};
+					EC517EFC2026BB3400B6F389 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC517EDD2026BB3400B6F389;
+					};
+				};
+			};
+			buildConfigurationList = EC517ED92026BB3400B6F389 /* Build configuration list for PBXProject "StoringPhoneNumber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC517ED52026BB3400B6F389;
+			productRefGroup = EC517EDF2026BB3400B6F389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC517EDD2026BB3400B6F389 /* StoringPhoneNumber */,
+				EC517EF12026BB3400B6F389 /* StoringPhoneNumberTests */,
+				EC517EFC2026BB3400B6F389 /* StoringPhoneNumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC517EDC2026BB3400B6F389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC517EEC2026BB3400B6F389 /* LaunchScreen.storyboard in Resources */,
+				EC517EE92026BB3400B6F389 /* Assets.xcassets in Resources */,
+				EC517EE72026BB3400B6F389 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC517EF02026BB3400B6F389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC517EFB2026BB3400B6F389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC517EDA2026BB3400B6F389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC517EE42026BB3400B6F389 /* ViewController.swift in Sources */,
+				EC517EE22026BB3400B6F389 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC517EEE2026BB3400B6F389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC517EF72026BB3400B6F389 /* StoringPhoneNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC517EF92026BB3400B6F389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC517F022026BB3400B6F389 /* StoringPhoneNumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC517EF42026BB3400B6F389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC517EDD2026BB3400B6F389 /* StoringPhoneNumber */;
+			targetProxy = EC517EF32026BB3400B6F389 /* PBXContainerItemProxy */;
+		};
+		EC517EFF2026BB3400B6F389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC517EDD2026BB3400B6F389 /* StoringPhoneNumber */;
+			targetProxy = EC517EFE2026BB3400B6F389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC517EE52026BB3400B6F389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC517EE62026BB3400B6F389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC517EEA2026BB3400B6F389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC517EEB2026BB3400B6F389 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC517F042026BB3400B6F389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC517F052026BB3400B6F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC517F072026BB3400B6F389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoringPhoneNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.StoringPhoneNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC517F082026BB3400B6F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoringPhoneNumber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.StoringPhoneNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC517F0A2026BB3400B6F389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoringPhoneNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.StoringPhoneNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoringPhoneNumber.app/StoringPhoneNumber";
+			};
+			name = Debug;
+		};
+		EC517F0B2026BB3400B6F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoringPhoneNumberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.StoringPhoneNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoringPhoneNumber.app/StoringPhoneNumber";
+			};
+			name = Release;
+		};
+		EC517F0D2026BB3400B6F389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoringPhoneNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.StoringPhoneNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoringPhoneNumber;
+			};
+			name = Debug;
+		};
+		EC517F0E2026BB3400B6F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StoringPhoneNumberUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.StoringPhoneNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoringPhoneNumber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC517ED92026BB3400B6F389 /* Build configuration list for PBXProject "StoringPhoneNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC517F042026BB3400B6F389 /* Debug */,
+				EC517F052026BB3400B6F389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC517F062026BB3400B6F389 /* Build configuration list for PBXNativeTarget "StoringPhoneNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC517F072026BB3400B6F389 /* Debug */,
+				EC517F082026BB3400B6F389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC517F092026BB3400B6F389 /* Build configuration list for PBXNativeTarget "StoringPhoneNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC517F0A2026BB3400B6F389 /* Debug */,
+				EC517F0B2026BB3400B6F389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC517F0C2026BB3400B6F389 /* Build configuration list for PBXNativeTarget "StoringPhoneNumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC517F0D2026BB3400B6F389 /* Debug */,
+				EC517F0E2026BB3400B6F389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC517ED62026BB3400B6F389 /* Project object */;
+}
